@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Dublin');
+
 class CarPolicy
 { 
     private $policyNumber=0;

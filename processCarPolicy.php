@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $carPolicy->setDateOfLastClaim($dateOfLastClaim);
     
-    $intialPremium = $carPolicy->getInitialPremium();
+    $intialPremium = $yearlyPremium;
 
     $discountedPremium = $carPolicy->getDiscountedPremium();
 
